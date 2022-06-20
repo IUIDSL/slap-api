@@ -1,4 +1,6 @@
+--
 -- Example queries as needed by odbc6.py.
+--
 SELECT gene_symbol, pref_name
 FROM c2b2r_chembl_08_target_dictionary
 WHERE UPPER(pref_name) = UPPER('Cellular retinoic acid-binding protein I')
@@ -27,7 +29,7 @@ WHERE md5(std_inchi) = md5('InChI=1S/C6H15N/c1-2-3-4-5-6-7/h2-7H2,1H3')
 --
 SELECT *
 FROM  c2b2r_compound_new
-WHERE cid='5591'
+WHERE cid = '5591'
 ;
 --
 SELECT openeye_can_smiles, iupac_name, iupac_traditional_name, inchikey, std_inchi
@@ -43,15 +45,15 @@ WHERE "Name" = 'Histidinemia'
 SELECT "CID"
 FROM c2b2r_chemogenomics
 WHERE TRIM(primary_source) != 'CTD'
-AND med_interested=1
+AND med_interested = 1
 AND "GENE" = 'TUBA1A' limit 10
 ;
 --
 SELECT "GENE"
 FROM c2b2r_chemogenomics
 WHERE TRIM(primary_source) != 'CTD'
-AND med_interested=1
-AND "CID" = '443495'
+AND med_interested = 1
+AND "CID" = '444732'
 ;
 --
 SELECT "CID", "GENE", primary_source
@@ -65,7 +67,7 @@ SELECT "CID", openeye_can_smiles, primary_source
 FROM c2b2r_chemogenomics, c2b2r_compound_new
 WHERE c2b2r_chemogenomics."CID" = c2b2r_compound_new.cid
 AND TRIM(c2b2r_chemogenomics.primary_source) != 'CTD'
-AND c2b2r_chemogenomics.med_interested=1
+AND c2b2r_chemogenomics.med_interested = 1
 AND c2b2r_chemogenomics."GENE" = 'TUBA1A'
 ;
 --

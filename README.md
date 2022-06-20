@@ -7,34 +7,36 @@ via HTTP clients.
 
 ### Files:
 
- *	`.htaccess` - Apache config, associates handlers with filetypes.
- *	`catalog.py`
- *	`convertName2CID.py`
- *	`drug_sim.R`
- *	`fileupload.html`
- *	`generalSearch_test1.py`
- *	`generalSearch_test2.py`
- *	`makePairs.R`
- *	`odbc6.py`
- *	`pathfinder_m.py`
- *	`pathfinder_rank1_backup.py`
- *	`pathfinder_rank2_backup.py`
- *	`pathfinder_rank3_backup.py`
- *	`pathfinder_rank5.py`
- *	`pathfinder_rank_advanced.py`
- *	`pathfinder_rank_backup.py`
- *	`pathfinder_rank_backup_R.py`
- *	`ppDrugTargetPrediction1.py`
- *	`ppPairPrediction2.py`
- *	`ppPairPrediction_local.py`
- *	`prediction1.py`
- *	`prediction2_backup.py`
- *	`save_file.py`
- *	`sbv.py`
- *	`sendEmail.py`
- *	`stats.R`
- *	`sum_primes.py`
- *	`test.py`
+|File|Usage|Comments|Runtime, Pre-processing, or Other|
+|---|---|---|---|
+|`.htaccess`|Apache config, associates handlers with filetypes.||Runtime|
+|`catalog.py`||||
+|`convertName2CID.py`||||
+|`drug_sim.R`||||
+|`fileupload.html`||||
+|`generalSearch_test1.py`||||
+|`generalSearch_test2.py`||||
+|`makePairs.R`|||Pre-processing|
+|`odbc6.py`|||Runtime|
+|`pathfinder_m.py`||||
+|`pathfinder_rank1_backup.py`||||
+|`pathfinder_rank2_backup.py`||||
+|`pathfinder_rank3_backup.py`||||
+|`pathfinder_rank5.py`||||
+|`pathfinder_rank_advanced.py`||||
+|`pathfinder_rank_backup.py`||||
+|`pathfinder_rank_backup_R.py`||||
+|`ppDrugTargetPrediction1.py`||||
+|`ppPairPrediction2.py`|||Runtime|
+|`ppPairPrediction_local.py`||||
+|`prediction1.py`||||
+|`prediction2_backup.py`||||
+|`save_file.py`|||Other|
+|`sbv.py`||||
+|`sendEmail.py`|||Other|
+|`stats.R`||||
+|`sum_primes.py`||||
+|`test.py`|||Other|
 
 
 ### Dependencies:
