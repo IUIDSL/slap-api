@@ -14,10 +14,12 @@ via HTTP clients.
 |`convertName2CID.py`||||
 |`drug_sim.R`||||
 |`fileupload.html`||||
+|`findPath_m`||Compiled exe (source missing).|Runtime|
 |`generalSearch_test1.py`||||
 |`generalSearch_test2.py`||||
 |`makePairs.R`|||Pre-processing|
 |`odbc6.py`|API|imported by prediction1.py|Runtime|
+|`pathfinder_m`||Compiled exe (source missing), apparently obsoleted by `pathfinder_m.py`||
 |`pathfinder_m.py`||||
 |`pathfinder_rank1_backup.py`||||
 |`pathfinder_rank2_backup.py`||||
@@ -29,8 +31,9 @@ via HTTP clients.
 |`ppDrugTargetPrediction1.py`|API|imported by prediction1.py|Runtime|
 |`ppPairPrediction2.py`|API|imported by prediction1.py|Runtime|
 |`ppPairPrediction_local.py`||||
-|`prediction1.py`|API|Top level called via .htaccess SetHandler mod_python PythonHandler prediction1.|Runtime|
+|`prediction1.py`|API|Top level called via .htaccess SetHandler mod\_python PythonHandler prediction1.|Runtime|
 |`prediction2_backup.py`||||
+|`PreProcess`||Compiled exe (source missing).|Pre-processing? or obsolete?|
 |`save_file.py`|||Other|
 |`sbv.py`||||
 |`sendEmail.py`|||Other|
